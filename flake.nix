@@ -22,10 +22,9 @@
 
         # Libraries
         buildInputs = [
-          # Tao Deps
-          glib
+          # Wry Deps
           gtk4
-          gdk3
+          webkitgtk_4_1
         ];
       };
     };
