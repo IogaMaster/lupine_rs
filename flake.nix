@@ -26,6 +26,9 @@
           gtk4
           webkitgtk_4_1
         ];
+        shellHook = ''
+          export GIO_MODULE_DIR="${pkgs.glib-networking}/lib/gio/modules/";
+        '';
       };
     };
 }
